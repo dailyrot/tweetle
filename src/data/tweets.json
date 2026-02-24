@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "candidates": [
+      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
+      { "name": "Kanye West", "handle": "@kanyewest" },
+      { "name": "Elon Musk", "handle": "@elonmusk" },
+      { "name": "Kim Kardashian", "handle": "@KimKardashian" }
+    ],
+    "rounds": [
+      {
+        "text": "Despite the constant negative press covfefe",
+        "author": "Donald Trump"
+      },
+      {
+        "text": "I'm nice at ping pong",
+        "author": "Kanye West"
+      },
+      {
+        "text": "Do you think God stays in heaven because he too lives in fear of what he's created here on earth?",
+        "author": "Elon Musk"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "candidates": [
+      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
+      { "name": "Kanye West", "handle": "@kanyewest" },
+      { "name": "Elon Musk", "handle": "@elonmusk" },
+      { "name": "Jaden Smith", "handle": "@jaborijaden" }
+    ],
+    "rounds": [
+      {
+        "text": "How Can Mirrors Be Real If Our Eyes Aren't Real",
+        "author": "Jaden Smith"
+      },
+      {
+        "text": "I have never seen a thin person drinking Diet Coke.",
+        "author": "Donald Trump"
+      },
+      {
+        "text": "I am become meme, destroyer of shorts",
+        "author": "Elon Musk"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "candidates": [
+      { "name": "Kanye West", "handle": "@kanyewest" },
+      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
+      { "name": "Tyler, The Creator", "handle": "@tylerthecreator" },
+      { "name": "Elon Musk", "handle": "@elonmusk" }
+    ],
+    "rounds": [
+      {
+        "text": "I hate when I'm on a flight and I wake up with a water bottle next to me like oh great now I gotta be responsible for this water bottle",
+        "author": "Kanye West"
+      },
+      {
+        "text": "My grandfather had a parrot that could say 'who's a pretty boy' in seven languages. He was the most arrogant bird I'd ever met.",
+        "author": "Tyler, The Creator"
+      },
+      {
+        "text": "Sorry losers and haters, but my I.Q. is one of the highest -and you all know it! Please don't feel so stupid or insecure, it's not your fault",
+        "author": "Donald Trump"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "candidates": [
+      { "name": "Elon Musk", "handle": "@elonmusk" },
+      { "name": "Kanye West", "handle": "@kanyewest" },
+      { "name": "50 Cent", "handle": "@50cent" },
+      { "name": "Donald Trump", "handle": "@realDonaldTrump" }
+    ],
+    "rounds": [
+      {
+        "text": "I'm not saying I'm gonna change the world, but I guarantee that I will spark the brain that will change the world",
+        "author": "Kanye West"
+      },
+      {
+        "text": "Why is there a mini Eiffel Tower in Las Vegas, but no mini Las Vegas in Paris? Seems unfair.",
+        "author": "Elon Musk"
+      },
+      {
+        "text": "I just realized the reason I got ran over by a car was because I was tweeting and walking. I need to pay attention.",
+        "author": "50 Cent"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "candidates": [
+      { "name": "Jaden Smith", "handle": "@jaborijaden" },
+      { "name": "Kim Kardashian", "handle": "@KimKardashian" },
+      { "name": "Kanye West", "handle": "@kanyewest" },
+      { "name": "Chrissy Teigen", "handle": "@chrissyteigen" }
+    ],
+    "rounds": [
+      {
+        "text": "If Newborn Babies Could Speak They Would Be The Most Intelligent Beings On Planet Earth.",
+        "author": "Jaden Smith"
+      },
+      {
+        "text": "Would you rather have a fish brain and a human body or a human brain and a fish body? This is a genuine question.",
+        "author": "Chrissy Teigen"
+      },
+      {
+        "text": "I feel like me and Taylor might still have sex. Why? I made that b*tch famous",
+        "author": "Kanye West"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "candidates": [
+      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
+      { "name": "Elon Musk", "handle": "@elonmusk" },
+      { "name": "Snoop Dogg", "handle": "@SnoopDogg" },
+      { "name": "Kanye West", "handle": "@kanyewest" }
+    ],
+    "rounds": [
+      {
+        "text": "I think unicorns are jacked up rhinos. Think about it.",
+        "author": "Snoop Dogg"
+      },
+      {
+        "text": "The beauty of me is that I'm very rich.",
+        "author": "Donald Trump"
+      },
+      {
+        "text": "I do some of my best tweeting late at night. People say, 'go to bed!' I say, 'no, this is when the magic happens.'",
+        "author": "Elon Musk"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "candidates": [
+      { "name": "Kanye West", "handle": "@kanyewest" },
+      { "name": "Tyler, The Creator", "handle": "@tylerthecreator" },
+      { "name": "Jaden Smith", "handle": "@jaborijaden" },
+      { "name": "Elon Musk", "handle": "@elonmusk" }
+    ],
+    "rounds": [
+      {
+        "text": "Cyberbullying is not real. Just close your laptop.",
+        "author": "Tyler, The Creator"
+      },
+      {
+        "text": "I am Lord Voldemort. (just kidding, I'm Elon)",
+        "author": "Elon Musk"
+      },
+      {
+        "text": "I am a god. I am a god. I am a god.",
+        "author": "Kanye West"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "candidates": [
+      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
+      { "name": "Kim Kardashian", "handle": "@KimKardashian" },
+      { "name": "Chrissy Teigen", "handle": "@chrissyteigen" },
+      { "name": "Kanye West", "handle": "@kanyewest" }
+    ],
+    "rounds": [
+      {
+        "text": "I'm watching Shark Tank and I literally wanna invest in everything",
+        "author": "Kim Kardashian"
+      },
+      {
+        "text": "Robert Pattinson should not take back Kristen Stewart. She cheated on him like a dog & will do it again--just watch. He can do much better!",
+        "author": "Donald Trump"
+      },
+      {
+        "text": "One of my biggest Kanye West moments was when I forgot I was Kanye West",
+        "author": "Kanye West"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "candidates": [
+      { "name": "Elon Musk", "handle": "@elonmusk" },
+      { "name": "Jaden Smith", "handle": "@jaborijaden" },
+      { "name": "50 Cent", "handle": "@50cent" },
+      { "name": "Snoop Dogg", "handle": "@SnoopDogg" }
+    ],
+    "rounds": [
+      {
+        "text": "If everybody in the world dropped out of school we would have a much more intelligent society",
+        "author": "Jaden Smith"
+      },
+      {
+        "text": "Tesla merch is fire, but I may be biased",
+        "author": "Elon Musk"
+      },
+      {
+        "text": "I accidentally went to New Jersey and now I'm trapped. Please send help.",
+        "author": "50 Cent"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "candidates": [
+      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
+      { "name": "Kanye West", "handle": "@kanyewest" },
+      { "name": "Tyler, The Creator", "handle": "@tylerthecreator" },
+      { "name": "Chrissy Teigen", "handle": "@chrissyteigen" }
+    ],
+    "rounds": [
+      {
+        "text": "I will be the greatest jobs president that God ever created",
+        "author": "Donald Trump"
+      },
+      {
+        "text": "sometimes I push the door close button on people running towards the elevator. I just need my alone time",
+        "author": "Chrissy Teigen"
+      },
+      {
+        "text": "I'm on my way to becoming a billionaire. Once I figure out what I'm selling.",
+        "author": "Tyler, The Creator"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "candidates": [
+      { "name": "Kanye West", "handle": "@kanyewest" },
+      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
+      { "name": "Elon Musk", "handle": "@elonmusk" },
+      { "name": "Snoop Dogg", "handle": "@SnoopDogg" }
+    ],
+    "rounds": [
+      {
+        "text": "Fur pillows are actually hard to sleep on",
+        "author": "Kanye West"
+      },
+      {
+        "text": "Mars is basically free real estate",
+        "author": "Elon Musk"
+      },
+      {
+        "text": "I would like to extend my best wishes to all, even the haters and losers, on this special date, September 11th.",
+        "author": "Donald Trump"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "candidates": [
+      { "name": "Jaden Smith", "handle": "@jaborijaden" },
+      { "name": "Kanye West", "handle": "@kanyewest" },
+      { "name": "Kim Kardashian", "handle": "@KimKardashian" },
+      { "name": "50 Cent", "handle": "@50cent" }
+    ],
+    "rounds": [
+      {
+        "text": "Trees Are Never Sad Look At Them Every Once In Awhile They're Quite Beautiful.",
+        "author": "Jaden Smith"
+      },
+      {
+        "text": "Sometimes I get emotional over fonts",
+        "author": "Kanye West"
+      },
+      {
+        "text": "My back hurts from carrying the rap game",
+        "author": "50 Cent"
+      }
+    ]
+  }
+]
