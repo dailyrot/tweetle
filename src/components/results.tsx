@@ -4,8 +4,9 @@ import { useEffect, useCallback, useState } from "react";
 import confetti from "canvas-confetti";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { getResultMessage } from "@/lib/game-logic";
-import type { RoundResult } from "@/types";
+import { getResultMessage, getPuzzleNumber } from "@/lib/game-logic";
+import type { Candidate, Round, RoundResult } from "@/types";
+import { TweetReveal } from "./tweet-reveal";
 
 function copyViaTextarea(text: string): boolean {
   const ta = document.createElement("textarea");
@@ -29,6 +30,8 @@ interface ResultsProps {
   results: RoundResult[];
   score: number;
   isDaily: boolean;
+  rounds: Round[];
+  candidates: Candidate[];
   onShowStats: () => void;
   onPastTweets?: () => void;
   onBack?: () => void;
@@ -38,6 +41,8 @@ export function Results({
   results,
   score,
   isDaily,
+  rounds,
+  candidates,
   onShowStats,
   onPastTweets,
   onBack,
@@ -67,15 +72,24 @@ export function Results({
     }
   }, [score]);
 
-  const getEmojiGrid = useCallback(() => {
+  const puzzleNum = getPuzzleNumber();
+
+  const getShareText = useCallback(() => {
     const emojis = results
       .map((r) => (r === "correct" ? "✅" : "❌"))
       .join("");
-    return `Tweetle: ${score}/3\n${emojis}`;
-  }, [results, score]);
+    const taunt =
+      score === 3
+        ? `I got a perfect score on Tweetle #${puzzleNum}. Beat that.`
+        : score === 0
+          ? `I got 0/3 on Tweetle #${puzzleNum}. Surely you can do better...`
+          : `I got ${score}/3 on Tweetle #${puzzleNum}. Think you can beat me?`;
+    const url = typeof window !== "undefined" ? window.location.origin : "";
+    return `${taunt}\n\n${emojis}\n\n${url}`;
+  }, [results, score, puzzleNum]);
 
   const handleShare = async () => {
-    const text = getEmojiGrid();
+    const text = getShareText();
 
     if (navigator.share) {
       try {
@@ -180,6 +194,8 @@ export function Results({
           </Button>
         )}
       </div>
+
+      <TweetReveal rounds={rounds} results={results} candidates={candidates} />
     </div>
   );
 }

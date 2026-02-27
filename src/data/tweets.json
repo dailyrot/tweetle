@@ -2,276 +2,745 @@
   {
     "id": 1,
     "candidates": [
-      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
-      { "name": "Kanye West", "handle": "@kanyewest" },
-      { "name": "Elon Musk", "handle": "@elonmusk" },
-      { "name": "Kim Kardashian", "handle": "@KimKardashian" }
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      }
     ],
     "rounds": [
       {
-        "text": "Despite the constant negative press covfefe",
-        "author": "Donald Trump"
+        "text": "To EVERYONE, including all haters and losers, HAPPY NEW YEAR. Work hard, be smart and always remember, WINNING TAKES CARE OF EVERYTHING!",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/550399835682390016"
       },
       {
-        "text": "I'm nice at ping pong",
+        "text": "HAD TO ALL CAPS THIS!!!!!! NO MORE RULES…. MAKE YOUR OWN RULES… ok now back to finishing Pablo",
         "author": "Kanye West"
       },
       {
-        "text": "Do you think God stays in heaven because he too lives in fear of what he's created here on earth?",
-        "author": "Elon Musk"
+        "text": "OMGGGGG I just saw I reached 9 MILLION followers!!!!!! I am so speechless! YOU truly are my world and mean everything to me! I LOVE YOU!",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/102916085640208384"
       }
     ]
   },
   {
     "id": 2,
     "candidates": [
-      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
-      { "name": "Kanye West", "handle": "@kanyewest" },
-      { "name": "Elon Musk", "handle": "@elonmusk" },
-      { "name": "Jaden Smith", "handle": "@jaborijaden" }
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      }
     ],
     "rounds": [
       {
-        "text": "How Can Mirrors Be Real If Our Eyes Aren't Real",
-        "author": "Jaden Smith"
+        "text": "Well, my past mistakes do seem extremely dumb, especially the ones where I mistakenly thought I was smart",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/1091224198440091653"
       },
       {
-        "text": "I have never seen a thin person drinking Diet Coke.",
-        "author": "Donald Trump"
+        "text": "KD got dat jumper, and KD got dat bumper. I don't give a fuck what nobody say KD alright wit me. LOL",
+        "author": "50 Cent",
+        "sourceUrl": "https://x.com/50cent/status/1366047470841643010"
       },
       {
-        "text": "I am become meme, destroyer of shorts",
-        "author": "Elon Musk"
+        "text": "I wonder if I run for PRESIDENT, will the haters and losers vote for me knowing that I will MAKE AMERICA GREAT AGAIN? I say they will!",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/515635087275474944"
       }
     ]
   },
   {
     "id": 3,
     "candidates": [
-      { "name": "Kanye West", "handle": "@kanyewest" },
-      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
-      { "name": "Tyler, The Creator", "handle": "@tylerthecreator" },
-      { "name": "Elon Musk", "handle": "@elonmusk" }
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      }
     ],
     "rounds": [
       {
-        "text": "I hate when I'm on a flight and I wake up with a water bottle next to me like oh great now I gotta be responsible for this water bottle",
+        "text": "Fake Fake Fake fake fake fake fake fake fake fake fake … just my analysis",
         "author": "Kanye West"
       },
       {
-        "text": "My grandfather had a parrot that could say 'who's a pretty boy' in seven languages. He was the most arrogant bird I'd ever met.",
-        "author": "Tyler, The Creator"
+        "text": "Why did we waste so much time developing silly rockets? Damn you, aliens! So obtuse! You have all this crazy tech, but can't speak English!?",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/848244577521647616"
       },
       {
-        "text": "Sorry losers and haters, but my I.Q. is one of the highest -and you all know it! Please don't feel so stupid or insecure, it's not your fault",
-        "author": "Donald Trump"
+        "text": "Did I just read this right?!!!? I just reached 12 MILLION twitter dolls???? OMGGGG Best Christmas gift ever!!! I LOVE you guys so much!",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/149312700554547200"
       }
     ]
   },
   {
     "id": 4,
     "candidates": [
-      { "name": "Elon Musk", "handle": "@elonmusk" },
-      { "name": "Kanye West", "handle": "@kanyewest" },
-      { "name": "50 Cent", "handle": "@50cent" },
-      { "name": "Donald Trump", "handle": "@realDonaldTrump" }
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      },
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "Snoop Dogg",
+        "handle": "@SnoopDogg"
+      }
     ],
     "rounds": [
       {
-        "text": "I'm not saying I'm gonna change the world, but I guarantee that I will spark the brain that will change the world",
+        "text": "I love the White House, one of the most beautiful buildings (homes) I have ever seen. But Fake News said I called it a dump - TOTALLY UNTRUE",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/892920397162848257"
+      },
+      {
+        "text": "PEOLE TRIED TO TALK ME OUT OF RUNNING FOR PRESIDENT... NEVER LET WEAK CONTROLLING PEOPLE KILL YOUR SPIRIT",
         "author": "Kanye West"
       },
       {
-        "text": "Why is there a mini Eiffel Tower in Las Vegas, but no mini Las Vegas in Paris? Seems unfair.",
-        "author": "Elon Musk"
-      },
-      {
-        "text": "I just realized the reason I got ran over by a car was because I was tweeting and walking. I need to pay attention.",
-        "author": "50 Cent"
+        "text": "so i'm just sitting here thinking, How am I gonna tell Tommy he's not getting a NAACP award ? Fvck this job i quit ! LOL @JosephSikora4",
+        "author": "50 Cent",
+        "sourceUrl": "https://x.com/50cent/status/1497408128857657346"
       }
     ]
   },
   {
     "id": 5,
     "candidates": [
-      { "name": "Jaden Smith", "handle": "@jaborijaden" },
-      { "name": "Kim Kardashian", "handle": "@KimKardashian" },
-      { "name": "Kanye West", "handle": "@kanyewest" },
-      { "name": "Chrissy Teigen", "handle": "@chrissyteigen" }
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      }
     ],
     "rounds": [
       {
-        "text": "If Newborn Babies Could Speak They Would Be The Most Intelligent Beings On Planet Earth.",
-        "author": "Jaden Smith"
+        "text": "One other I'd like to correct from the biography: I never said I was a samurai. Said I was ninja. No, that's a joke. Didn't say that either.",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/895838512544702465"
       },
       {
-        "text": "Would you rather have a fish brain and a human body or a human brain and a fish body? This is a genuine question.",
-        "author": "Chrissy Teigen"
+        "text": "I'm scared my words were LOVE CLUTZ & FAT! I love love, I'm such a clutch & I gained weight & tripping LOL",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/240711020857946114"
       },
       {
-        "text": "I feel like me and Taylor might still have sex. Why? I made that b*tch famous",
-        "author": "Kanye West"
+        "text": "i'm getting back in shape, in shape girl you want to see go to my LOL ONLYFANS PAGE.. Now why would you go looking at, I am a boy Damon WTF I change my mind. LOL",
+        "author": "50 Cent",
+        "sourceUrl": "https://x.com/50cent/status/1336308339844722688"
       }
     ]
   },
   {
     "id": 6,
     "candidates": [
-      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
-      { "name": "Elon Musk", "handle": "@elonmusk" },
-      { "name": "Snoop Dogg", "handle": "@SnoopDogg" },
-      { "name": "Kanye West", "handle": "@kanyewest" }
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      }
     ],
     "rounds": [
       {
-        "text": "I think unicorns are jacked up rhinos. Think about it.",
-        "author": "Snoop Dogg"
+        "text": "I just got back from Russia-learned lots & lots. Moscow is a very interesting and amazing place! U.S. MUST BE VERY SMART AND VERY STRATEGIC.",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/399729261684490240"
       },
       {
-        "text": "The beauty of me is that I'm very rich.",
-        "author": "Donald Trump"
+        "text": "Can Steve Bannon please insult me some more? Best PR I’ve had in a while.",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/1035320831725920256"
       },
       {
-        "text": "I do some of my best tweeting late at night. People say, 'go to bed!' I say, 'no, this is when the magic happens.'",
-        "author": "Elon Musk"
+        "text": "TRUST ME I WONT STOP UNTIL ALL IS FAIR TRUST ME FROM NAT YE AKA BABY PUTIN",
+        "author": "Kanye West"
       }
     ]
   },
   {
     "id": 7,
     "candidates": [
-      { "name": "Kanye West", "handle": "@kanyewest" },
-      { "name": "Tyler, The Creator", "handle": "@tylerthecreator" },
-      { "name": "Jaden Smith", "handle": "@jaborijaden" },
-      { "name": "Elon Musk", "handle": "@elonmusk" }
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      }
     ],
     "rounds": [
       {
-        "text": "Cyberbullying is not real. Just close your laptop.",
-        "author": "Tyler, The Creator"
-      },
-      {
-        "text": "I am Lord Voldemort. (just kidding, I'm Elon)",
-        "author": "Elon Musk"
-      },
-      {
-        "text": "I am a god. I am a god. I am a god.",
+        "text": "MY CHILDREN WILL OWN MY MASTERS ... NOT YOUR CHILDREN ... MY CHILDREN ... MY CHILDREN ... MY CHILDREN",
         "author": "Kanye West"
+      },
+      {
+        "text": "How much do u LOVE @TheDailyLove I am in love w love & love these love quotes! i love u! Love-KK2 LOL (lots of love)",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/3371098183"
+      },
+      {
+        "text": "I'm the only author, so, love or hate it, that's me. I've learned some lessons though, such as tweeting on Ambien isn't wise.",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/794578375415238656"
       }
     ]
   },
   {
     "id": 8,
     "candidates": [
-      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
-      { "name": "Kim Kardashian", "handle": "@KimKardashian" },
-      { "name": "Chrissy Teigen", "handle": "@chrissyteigen" },
-      { "name": "Kanye West", "handle": "@kanyewest" }
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      },
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "Snoop Dogg",
+        "handle": "@SnoopDogg"
+      }
     ],
     "rounds": [
       {
-        "text": "I'm watching Shark Tank and I literally wanna invest in everything",
-        "author": "Kim Kardashian"
+        "text": "WHAT THE F*CK! (VOTE ForTRUMP) IM OUT, F*CK NEW YORK The KNICKS never win anyway. I don't care Trump doesn't like black people 62% are you out of ya fucking mind.",
+        "author": "50 Cent",
+        "sourceUrl": "https://x.com/50cent/status/1318303260164431873"
       },
       {
-        "text": "Robert Pattinson should not take back Kristen Stewart. She cheated on him like a dog & will do it again--just watch. He can do much better!",
-        "author": "Donald Trump"
+        "text": "Russia has never tried to use leverage over me. I HAVE NOTHING TO DO WITH RUSSIA - NO DEALS, NO LOANS, NO NOTHING!",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/819159806489591809"
       },
       {
-        "text": "One of my biggest Kanye West moments was when I forgot I was Kanye West",
-        "author": "Kanye West"
+        "text": "OHHHHHH Who just won again???? ME Sucka!! RT @reggie_bush -@KimKardashian not to fast sucka!!!!! I'm on ya heels! My middle name is Tunk!!!",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/10010315438"
       }
     ]
   },
   {
     "id": 9,
     "candidates": [
-      { "name": "Elon Musk", "handle": "@elonmusk" },
-      { "name": "Jaden Smith", "handle": "@jaborijaden" },
-      { "name": "50 Cent", "handle": "@50cent" },
-      { "name": "Snoop Dogg", "handle": "@SnoopDogg" }
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Snoop Dogg",
+        "handle": "@SnoopDogg"
+      }
     ],
     "rounds": [
       {
-        "text": "If everybody in the world dropped out of school we would have a much more intelligent society",
-        "author": "Jaden Smith"
+        "text": "TCP packet walks into a bar & says “I’d like a beer.” Barman replies “You’d like a beer?” “Yes,” replies TCP packet,“I’d like a beer.”",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/354690624051609600"
       },
       {
-        "text": "Tesla merch is fire, but I may be biased",
-        "author": "Elon Musk"
+        "text": "no offense to anyone… I’m asking everyone DON’T ASK ME FOR ANYTHING TILL AFTER I’M FINISHED WITH MY ALBUM",
+        "author": "Kanye West"
       },
       {
-        "text": "I accidentally went to New Jersey and now I'm trapped. Please send help.",
-        "author": "50 Cent"
+        "text": "Sorry folks, but if I would have relied on the Fake News of CNN, NBC, ABC, CBS, washpost or nytimes, I would have had ZERO chance winning WH",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/872064426568036353"
       }
     ]
   },
   {
     "id": 10,
     "candidates": [
-      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
-      { "name": "Kanye West", "handle": "@kanyewest" },
-      { "name": "Tyler, The Creator", "handle": "@tylerthecreator" },
-      { "name": "Chrissy Teigen", "handle": "@chrissyteigen" }
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      }
     ],
     "rounds": [
       {
-        "text": "I will be the greatest jobs president that God ever created",
-        "author": "Donald Trump"
+        "text": "Best Christmas gift ever! Mason said KIM! Kourtney told me,I didn't believe her then he said it to me! I almost cried! Mama, dada & KIM! LOL",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/18925129379614721"
       },
       {
-        "text": "sometimes I push the door close button on people running towards the elevator. I just need my alone time",
-        "author": "Chrissy Teigen"
+        "text": "That was the first time I heard those Tax numbers, STARZ GET THE APP before I faint. LOL",
+        "author": "50 Cent",
+        "sourceUrl": "https://x.com/50cent/status/1318996965422759936"
       },
       {
-        "text": "I'm on my way to becoming a billionaire. Once I figure out what I'm selling.",
-        "author": "Tyler, The Creator"
+        "text": "I'M SO HYPE RIGHT NOW EVERYTHING HAS CHANGED",
+        "author": "Kanye West"
       }
     ]
   },
   {
     "id": 11,
     "candidates": [
-      { "name": "Kanye West", "handle": "@kanyewest" },
-      { "name": "Donald Trump", "handle": "@realDonaldTrump" },
-      { "name": "Elon Musk", "handle": "@elonmusk" },
-      { "name": "Snoop Dogg", "handle": "@SnoopDogg" }
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      }
     ],
     "rounds": [
       {
-        "text": "Fur pillows are actually hard to sleep on",
-        "author": "Kanye West"
+        "text": "I was never a fan of Bush 2 FOR MANY REASONS, including the fact that we should never have gone into Iraq but once there, kept the oil! DUMB",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/335340226035736576"
       },
       {
-        "text": "Mars is basically free real estate",
-        "author": "Elon Musk"
+        "text": "I was there to support him! And was cheering screaming LETS GO TRISTAN!!!!! I would never go boo anyone. I don’t go to hate, only to cheer!",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/1217215529699536896"
       },
       {
-        "text": "I would like to extend my best wishes to all, even the haters and losers, on this special date, September 11th.",
-        "author": "Donald Trump"
+        "text": "I literally have the receipts!! This is so dumb. 🤣🤣",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/1250700598002905093"
       }
     ]
   },
   {
     "id": 12,
     "candidates": [
-      { "name": "Jaden Smith", "handle": "@jaborijaden" },
-      { "name": "Kanye West", "handle": "@kanyewest" },
-      { "name": "Kim Kardashian", "handle": "@KimKardashian" },
-      { "name": "50 Cent", "handle": "@50cent" }
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      },
+      {
+        "name": "Snoop Dogg",
+        "handle": "@SnoopDogg"
+      }
     ],
     "rounds": [
       {
-        "text": "Trees Are Never Sad Look At Them Every Once In Awhile They're Quite Beautiful.",
-        "author": "Jaden Smith"
-      },
-      {
-        "text": "Sometimes I get emotional over fonts",
+        "text": "HAAAAAAAAAAAAAA FUCK ALL THE HATERS PUT YOUR MIUTHERFUCKING FIST IN THE SKY RIGHT NOW!!!!!!!!!!!!",
         "author": "Kanye West"
       },
       {
-        "text": "My back hurts from carrying the rap game",
-        "author": "50 Cent"
+        "text": "Have a great and peaceful Memorial Day - but remember, there are people out there who don't want us to have peace. WE MUST BE STRONG!!!!",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/470511519872978944"
+      },
+      {
+        "text": "First I hate you but now I love you 50. yeah I know but chill out bitch. LOL",
+        "author": "50 Cent",
+        "sourceUrl": "https://x.com/50cent/status/1172220582966042626"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "candidates": [
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      }
+    ],
+    "rounds": [
+      {
+        "text": "Yo, I don't hate Apple. It's a great company with a lot of talented people. I love their products and I'm glad they're doing an EV.",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/652605371857530880"
+      },
+      {
+        "text": "The Economy is the BEST IT HAS EVER BEEN! Even much of the Fake News is giving me credit for that!",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/1146023450001231872"
+      },
+      {
+        "text": "Not really! LOL RT @becca_nolanx @KimKardashian i have a better chance of winning the lottery than you replying to me! I LOVE YOUU! <33",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/13876056785"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "candidates": [
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      }
+    ],
+    "rounds": [
+      {
+        "text": "I REFUSE TO DO ZOOMS WITH ONE PERSON IF I HAVE THEIR CONTACT ... I’VE GOT ANOTHER IDEA... IT’S CALLED FACETIME 🐄",
+        "author": "Kanye West"
+      },
+      {
+        "text": "oh no WAYNE, I WOULD HAVE NEVER TOOK THIS PICTURE.",
+        "author": "50 Cent",
+        "sourceUrl": "https://x.com/50cent/status/1321965134542184453"
+      },
+      {
+        "text": "I love the Internet. Comments had me literally ROFL. No, it wasn't intentional. Glad I didn't mention the other letter!",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/517509858971504640"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "candidates": [
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      }
+    ],
+    "rounds": [
+      {
+        "text": "I put my life on my God that Norths mom would never photograph her doing playboy and that’s on God I’m at the ranch ... come and get me",
+        "author": "Kanye West"
+      },
+      {
+        "text": "OMG! I HAVE 4 MILLION TWITTER FRIENDS! I am so grateful for everyone who supports me! I love you guys and TWITTER! XOXOOXOXO",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/17888949324"
+      },
+      {
+        "text": "“I also protect myself by being flexible. I never get too attached to one deal or one approach.” – THE ART OF THE DEAL",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/271362705334607872"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "candidates": [
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Snoop Dogg",
+        "handle": "@SnoopDogg"
+      }
+    ],
+    "rounds": [
+      {
+        "text": "THERE WOULD BE NO FIX, NO WATCH THE THRONE, NO COLLEGE DROPOUT, NO GOLD DIGGER WITHOUT YOU BRO!!!!",
+        "author": "Kanye West"
+      },
+      {
+        "text": "At the risk of losing more \"cool points\", I like Reagan too! However, I also like Obama, Clinton & JFK. Good people on both sides...",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/321430023296913411"
+      },
+      {
+        "text": "IG and Twitter i said to my self, i'm gonna rap make more money and get more women. I Have always been cooler then these suckers. LOL",
+        "author": "50 Cent",
+        "sourceUrl": "https://x.com/50cent/status/1535289235959324672"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "candidates": [
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Snoop Dogg",
+        "handle": "@SnoopDogg"
+      }
+    ],
+    "rounds": [
+      {
+        "text": "I'm so happy to be married to the girl of my dreams",
+        "author": "Kanye West"
+      },
+      {
+        "text": "i love @kendalljenner SOOOOOO MUCH! shes an amazing sister!!!!! and PLEASE will a beautiful woman find my amazing bro @robkardashian",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/22399797081"
+      },
+      {
+        "text": "I do not understand how so many of my Jewish friends backed Obama in the last election. He is a TOTAL DISASTER FOR ISRAEL-AND ALWAYS WILL BE",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/404756133040381952"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "candidates": [
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      }
+    ],
+    "rounds": [
+      {
+        "text": "It's a beautiful time. I love my friends. I love my family. I love people. The human race.",
+        "author": "Kanye West"
+      },
+      {
+        "text": "Falcon flew perfectly!! Dragon in orbit, comm locked and solar arrays active!! Feels like a giant weight just came off my back :)",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/204845069772128256"
+      },
+      {
+        "text": "old boy is crazy running around putting up crazy paintings of me sucker!",
+        "author": "50 Cent",
+        "sourceUrl": "https://x.com/50cent/status/1262913137906458624"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "candidates": [
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      },
+      {
+        "name": "50 Cent",
+        "handle": "@50cent"
+      },
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      }
+    ],
+    "rounds": [
+      {
+        "text": "Everyone is asking me to cover The Apprentice LIVE on twitter. I will do so. Tonight 9 to 11. IT WILL BE A GREAT EVENING OF TELEVISION!",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/551767846364413953"
+      },
+      {
+        "text": "THANK YOU SO MUCH GUYS WE SOLD MADISON SQUARE GARDEN OUT IN 10 MINUTES!!!",
+        "author": "Kanye West"
+      },
+      {
+        "text": "Just received verbal govt approval for The Boring Company to build an underground NY-Phil-Balt-DC Hyperloop. NY-DC in 29 mins.",
+        "author": "Elon Musk",
+        "sourceUrl": "https://x.com/elonmusk/status/888053175155949572"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "candidates": [
+      {
+        "name": "Kanye West",
+        "handle": "@kanyewest"
+      },
+      {
+        "name": "Kim Kardashian",
+        "handle": "@KimKardashian"
+      },
+      {
+        "name": "Donald Trump",
+        "handle": "@realDonaldTrump"
+      },
+      {
+        "name": "Elon Musk",
+        "handle": "@elonmusk"
+      }
+    ],
+    "rounds": [
+      {
+        "text": "GET THE WEST WING READY !!! ... this is how I felt when I saw that Kentucky pole result 🌎🌍🌏🪐💫☄️💥🔥🇺🇸",
+        "author": "Kanye West"
+      },
+      {
+        "text": "OMGGGG!!!! New York City I LOVE YOU!!!! Shopping, Serendipity, QVC design meetings, Fashion week! I'm in LOVE!!!",
+        "author": "Kim Kardashian",
+        "sourceUrl": "https://x.com/KimKardashian/status/24034084203"
+      },
+      {
+        "text": "I was just given a great tour of Moscow - fantastic, hard working people. CITY IS REALLY ENERGIZED! The World will be watching tonight!",
+        "author": "Donald Trump",
+        "sourceUrl": "https://x.com/realDonaldTrump/status/399179993789374464"
       }
     ]
   }

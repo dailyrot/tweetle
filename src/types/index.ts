@@ -6,6 +6,7 @@ export interface Candidate {
 export interface Round {
   text: string;
   author: string;
+  sourceUrl?: string;
 }
 
 export interface Puzzle {

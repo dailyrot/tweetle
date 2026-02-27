@@ -2,15 +2,15 @@
 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import type { Puzzle } from "@/types";
+import { formatShortDate, type PastPuzzleEntry } from "@/lib/game-logic";
 
 interface PuzzlePickerProps {
-  puzzles: Puzzle[];
-  onSelect: (puzzle: Puzzle) => void;
+  entries: PastPuzzleEntry[];
+  onSelect: (entry: PastPuzzleEntry) => void;
   onBack: () => void;
 }
 
-export function PuzzlePicker({ puzzles, onSelect, onBack }: PuzzlePickerProps) {
+export function PuzzlePicker({ entries, onSelect, onBack }: PuzzlePickerProps) {
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-lg flex-col px-4 py-8">
       <div className="mb-6 flex items-center gap-3">
@@ -34,13 +34,13 @@ export function PuzzlePicker({ puzzles, onSelect, onBack }: PuzzlePickerProps) {
             Tweetle
           </h1>
           <p className="text-xs text-muted-foreground">
-            {puzzles.length} missed {puzzles.length === 1 ? "day" : "days"} to catch up on
+            {entries.length} missed {entries.length === 1 ? "day" : "days"} to catch up on
           </p>
         </div>
       </div>
 
-      {puzzles.length === 0 ? (
-        <div className="flex flex-1 flex-col items-center justify-center gap-4 pb-16 text-center">
+      {entries.length === 0 ? (
+        <div className="flex flex-1 flex-col items-center gap-4 pt-16 text-center">
           <div className="text-5xl">🏆</div>
           <h2 className="text-xl font-bold">All caught up!</h2>
           <p className="text-sm text-muted-foreground">
@@ -53,19 +53,27 @@ export function PuzzlePicker({ puzzles, onSelect, onBack }: PuzzlePickerProps) {
         </div>
       ) : (
         <div className="flex flex-col gap-3">
-          {puzzles.map((puzzle) => {
+          {entries.map((entry) => {
             const previewText =
-              puzzle.rounds[0].text.length > 80
-                ? puzzle.rounds[0].text.slice(0, 80) + "..."
-                : puzzle.rounds[0].text;
-            const names = puzzle.candidates.map((c) => c.name).join(", ");
+              entry.puzzle.rounds[0].text.length > 80
+                ? entry.puzzle.rounds[0].text.slice(0, 80) + "..."
+                : entry.puzzle.rounds[0].text;
+            const names = entry.puzzle.candidates.map((c) => c.name).join(", ");
 
             return (
               <Card
-                key={puzzle.id}
+                key={entry.puzzle.id}
                 className="cursor-pointer border-border/50 bg-card p-4 transition-colors hover:border-[#1d9bf0]/40 hover:bg-accent"
-                onClick={() => onSelect(puzzle)}
+                onClick={() => onSelect(entry)}
               >
+                <div className="mb-2 flex items-center justify-between">
+                  <span className="text-xs font-semibold text-[#1d9bf0]">
+                    Puzzle #{entry.puzzleNumber}
+                  </span>
+                  <span className="text-xs text-muted-foreground">
+                    {formatShortDate(entry.date)}
+                  </span>
+                </div>
                 <p className="text-sm leading-relaxed text-foreground">
                   &ldquo;{previewText}&rdquo;
                 </p>

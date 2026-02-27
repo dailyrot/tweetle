@@ -4,10 +4,33 @@ import type { Puzzle } from "@/types";
 const EPOCH = new Date("2025-01-01T00:00:00Z").getTime();
 const MS_PER_DAY = 86400000;
 
+// Puzzle #1 starts 3 days before launch day (Feb 24, 2026 = day 420).
+// So day 417 = #1, day 418 = #2, day 419 = #3, day 420 (today) = #4.
+const LAUNCH_DAY_INDEX = 417;
+
 export function getDayIndex(): number {
   const now = new Date();
   const utcNow = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
   return Math.floor((utcNow - EPOCH) / MS_PER_DAY);
+}
+
+export function getPuzzleNumber(dayOffset = 0): number {
+  return getDayIndex() + dayOffset - LAUNCH_DAY_INDEX + 1;
+}
+
+export function getDateForOffset(dayOffset: number): Date {
+  const now = new Date();
+  return new Date(
+    Date.UTC(now.getFullYear(), now.getMonth(), now.getDate() + dayOffset)
+  );
+}
+
+export function formatShortDate(date: Date): string {
+  return date.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC",
+  });
 }
 
 export function getAllPuzzles(): Puzzle[] {
@@ -27,15 +50,27 @@ export function getPuzzleForDayOffset(offset: number): Puzzle {
   return allPuzzles[index];
 }
 
-export function getRecentPastPuzzles(completedIds: number[]): Puzzle[] {
+export interface PastPuzzleEntry {
+  puzzle: Puzzle;
+  dayOffset: number;
+  puzzleNumber: number;
+  date: Date;
+}
+
+export function getRecentPastPuzzles(completedIds: number[]): PastPuzzleEntry[] {
   const todaysPuzzle = getTodaysPuzzle();
   const seen = new Set<number>([todaysPuzzle.id]);
-  const result: Puzzle[] = [];
+  const result: PastPuzzleEntry[] = [];
 
   for (let offset = -1; offset >= -3; offset--) {
     const puzzle = getPuzzleForDayOffset(offset);
     if (!seen.has(puzzle.id) && !completedIds.includes(puzzle.id)) {
-      result.push(puzzle);
+      result.push({
+        puzzle,
+        dayOffset: offset,
+        puzzleNumber: getPuzzleNumber(offset),
+        date: getDateForOffset(offset),
+      });
       seen.add(puzzle.id);
     }
   }

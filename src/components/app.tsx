@@ -2,7 +2,10 @@
 
 import { useCallback, useState } from "react";
 import type { Puzzle } from "@/types";
-import { getRecentPastPuzzles } from "@/lib/game-logic";
+import {
+  getRecentPastPuzzles,
+  type PastPuzzleEntry,
+} from "@/lib/game-logic";
 import { getCompletedPuzzleIds } from "@/lib/storage";
 import { Game } from "./game";
 import { PuzzlePicker } from "./puzzle-picker";
@@ -10,7 +13,7 @@ import { PuzzlePicker } from "./puzzle-picker";
 type Screen =
   | { type: "daily" }
   | { type: "picker" }
-  | { type: "past"; puzzle: Puzzle };
+  | { type: "past"; entry: PastPuzzleEntry };
 
 export function App() {
   const [screen, setScreen] = useState<Screen>({ type: "daily" });
@@ -23,15 +26,15 @@ export function App() {
     setScreen({ type: "daily" });
   }, []);
 
-  const playPast = useCallback((puzzle: Puzzle) => {
-    setScreen({ type: "past", puzzle });
+  const playPast = useCallback((entry: PastPuzzleEntry) => {
+    setScreen({ type: "past", entry });
   }, []);
 
   if (screen.type === "picker") {
-    const unplayed = getRecentPastPuzzles(getCompletedPuzzleIds());
+    const entries = getRecentPastPuzzles(getCompletedPuzzleIds());
     return (
       <PuzzlePicker
-        puzzles={unplayed}
+        entries={entries}
         onSelect={playPast}
         onBack={goToDaily}
       />
@@ -39,11 +42,18 @@ export function App() {
   }
 
   if (screen.type === "past") {
+    const { entry } = screen;
     return (
       <Game
-        key={screen.puzzle.id}
-        puzzle={screen.puzzle}
+        key={entry.puzzle.id}
+        puzzle={entry.puzzle}
         mode="past"
+        puzzleNumber={entry.puzzleNumber}
+        dateLabel={entry.date.toLocaleDateString("en-US", {
+          month: "short",
+          day: "numeric",
+          timeZone: "UTC",
+        })}
         onBack={goToPicker}
         onPastTweets={goToPicker}
       />

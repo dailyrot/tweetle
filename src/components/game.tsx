@@ -6,6 +6,9 @@ import {
   calculateScore,
   getRandomWrongMessage,
   getTodaysPuzzle,
+  getPuzzleNumber,
+  formatShortDate,
+  getDateForOffset,
 } from "@/lib/game-logic";
 import {
   clearInProgressState,
@@ -26,6 +29,8 @@ import { Button } from "@/components/ui/button";
 interface GameProps {
   puzzle?: Puzzle;
   mode?: "daily" | "past";
+  puzzleNumber?: number;
+  dateLabel?: string;
   onBack?: () => void;
   onPastTweets?: () => void;
 }
@@ -33,6 +38,8 @@ interface GameProps {
 export function Game({
   puzzle: puzzleProp,
   mode = "daily",
+  puzzleNumber: puzzleNumProp,
+  dateLabel: dateLabelProp,
   onBack,
   onPastTweets,
 }: GameProps) {
@@ -41,6 +48,8 @@ export function Game({
     [puzzleProp]
   );
   const isDaily = mode === "daily";
+  const puzzleNum = puzzleNumProp ?? getPuzzleNumber();
+  const dateLabel = dateLabelProp ?? formatShortDate(getDateForOffset(0));
 
   const [gameState, setGameState] = useState<GameState | null>(null);
   const [feedbackMsg, setFeedbackMsg] = useState<{
@@ -157,17 +166,20 @@ export function Game({
     return (
       <div className="mx-auto flex min-h-screen w-full max-w-lg flex-col px-4 py-8">
         <Header
-          label={isDaily ? "Today" : "Past"}
+          puzzleNumber={puzzleNum}
+          dateLabel={dateLabel}
           onShowStats={() => setShowStats(true)}
           onBack={onBack}
           onPastTweets={onPastTweets}
           showPastTweets={isDaily}
         />
-        <div className="flex flex-1 flex-col justify-center pb-16">
+        <div className="flex flex-1 flex-col pt-4">
           <Results
             results={gameState.results}
             score={score}
             isDaily={isDaily}
+            rounds={puzzle.rounds}
+            candidates={puzzle.candidates}
             onShowStats={() => setShowStats(true)}
             onPastTweets={onPastTweets}
             onBack={onBack}
@@ -199,14 +211,15 @@ export function Game({
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-lg flex-col px-4 py-8">
       <Header
-        label={isDaily ? "Today" : "Past"}
+        puzzleNumber={puzzleNum}
+        dateLabel={dateLabel}
         onShowStats={() => setShowStats(true)}
         onBack={onBack}
         onPastTweets={onPastTweets}
         showPastTweets={isDaily}
       />
 
-      <div className="flex flex-1 flex-col justify-center gap-5 pb-16">
+      <div className="flex flex-1 flex-col gap-5 pt-4">
         <div className="flex justify-center gap-2">
           {gameState.results.map((r, i) => (
             <div
@@ -273,13 +286,15 @@ export function Game({
 }
 
 function Header({
-  label,
+  puzzleNumber,
+  dateLabel,
   onShowStats,
   onBack,
   onPastTweets,
   showPastTweets,
 }: {
-  label: string;
+  puzzleNumber: number;
+  dateLabel: string;
   onShowStats: () => void;
   onBack?: () => void;
   onPastTweets?: () => void;
@@ -309,7 +324,9 @@ function Header({
           <h1 className="text-xl font-bold tracking-tight sm:text-2xl">
             Tweetle
           </h1>
-          <p className="text-xs text-muted-foreground">{label}</p>
+          <p className="text-xs text-muted-foreground">
+            Puzzle #{puzzleNumber} · {dateLabel}
+          </p>
         </div>
       </div>
       <div className="flex items-center gap-1">
